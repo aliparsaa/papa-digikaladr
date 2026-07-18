@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* تنظیمات تم را بلافاصله بعد از ایمپورت تایلوند قرار بده */
+@theme {
+  --color-med: #0A192F;
+  --color-med-light: #112240;
+  --color-champagne: #D4AF37;
+  --color-champagne-light: #ebc438;
+  --color-slate-custom: #8892B0;
+  
+  --font-vazir: "Vazirmatn", sans-serif;
+  
+  --shadow-glow: 0 0 30px rgba(212, 175, 55, 0.25);
+  
+  --image-med-gradient: linear-gradient(135deg, #0A192F 0%, #112240 50%, #0A192F 100%);
+}
+
+/* ایمپورت فونت گوگل */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+/* استایل‌های پایه */
+:root {
+  --font-vazirmatn: "Vazirmatn", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-vazirmatn);
+  background-color: var(--color-med);
+  color: white;
+}
+
+/* بقیه کلاس‌های سفارشی شما مثل .glass-nav اینجا باشد */

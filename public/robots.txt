@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://digikaladr.ir/sitemap.xml
+Sitemap: https://digikaladr.ir/sitemap-articles.xml
